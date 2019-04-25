@@ -1,0 +1,19 @@
+{
+  "name": "pizarra_canvas",
+  "version": "1.0.0",
+  "description": "Pizarra en tiempo real",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "Acxel Morales",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}

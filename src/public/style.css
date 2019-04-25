@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+}
+
+body {
+    background-color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0 auto;
+    width: 33%;
+    padding-bottom: 7px;
+    border-bottom: 2px solid grey;
+}
+
+canvas {
+    border: 1px solid aquamarine;
+    margin-top: .3em;
+    height: 80vh;
+    width: 100%;
+}
+
+footer {
+    background-color: gray;
+    text-align: center;
+    padding: 1.3em;
+}
